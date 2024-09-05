@@ -15,7 +15,7 @@ Go into the project's root folder.
 
 Run the project:.
 
-```$ go run cmd/main.go```
+```$ go run pkg/main.go```
 
 Use the API:
 
@@ -33,24 +33,24 @@ Example:
 Results:
 ```
   "status": 200,
-  "message": "50 jobs found!",
+  "message": "120 jobs found!",
   "jobs": [
     {
-      "title": "Golang Developer (Remote)",
-      "src": "https://uk.linkedin.com/jobs/view/golang-developer-remote-at-niufitel-s-l-3532219384?refId=XGkZ9%2FK%2FXDlV5kGbVx90pQ%3D%3D\u0026trackingId=HzwGHQg9VEAkCIyD5EKf3w%3D%3D\u0026position=1\u0026pageNum=0\u0026trk=public_jobs_jserp-result_search-card",
-      "company": "Niufitel, S.L.",
-      "companySrc": "https://es.linkedin.com/company/niufitel-s.l.?trk=public_jobs_jserp-result_job-search-card-subtitle",
-      "location": "London, England, United Kingdom",
-      "postedAt": "2023-03-20"
-    },
-    {
-      "title": "Golang Developer",
-      "src": "https://uk.linkedin.com/jobs/view/golang-developer-at-getground-3484082912?refId=XGkZ9%2FK%2FXDlV5kGbVx90pQ%3D%3D\u0026trackingId=48LcGCXfvhFRHK76IEupNA%3D%3D\u0026position=2\u0026pageNum=0\u0026trk=public_jobs_jserp-result_search-card",
-      "company": "GetGround",
-      "companySrc": "https://uk.linkedin.com/company/getground?trk=public_jobs_jserp-result_job-search-card-subtitle",
-      "location": "London, England, United Kingdom",
-      "postedAt": "2023-01-23"
-    },
+			"title": "Go Developer",
+			"src": "https://uk.linkedin.com/jobs/view/go-developer-at-yo-hr-consultancy-4011858374?position=1&pageNum=0&refId=nHz1zYAVs8va7zH3Fxr3hg%3D%3D&trackingId=ll%2BzmnrtOP2wtjThxXbuCg%3D%3D&trk=public_jobs_jserp-result_search-card",
+			"company": "YO HR Consultancy",
+			"companySrc": "https://in.linkedin.com/company/yo-hr-consultancy-pvt-ltd?trk=public_jobs_jserp-result_job-search-card-subtitle",
+			"location": "United Kingdom",
+			"postedAt": "2024-08-28"
+		},
+		{
+			"title": "Junior Golang Engineer at AIPRM",
+			"src": "https://uk.linkedin.com/jobs/view/junior-golang-engineer-at-aiprm-at-aiprm-3891678486?position=2&pageNum=0&refId=nHz1zYAVs8va7zH3Fxr3hg%3D%3D&trackingId=FbsUrNR9FG2MU2ivpzc4SQ%3D%3D&trk=public_jobs_jserp-result_search-card",
+			"company": "AIPRM",
+			"companySrc": "https://www.linkedin.com/company/aiprm?trk=public_jobs_jserp-result_job-search-card-subtitle",
+			"location": "Birmingham, England, United Kingdom",
+			"postedAt": "2024-03-15"
+		},
       ...
   ]
 ```
